@@ -1,11 +1,11 @@
 format: jb-book
-root: tussenrapporten/INTRODUCTION.ipynb
+root: tussenrapport/INTRODUCTION.ipynb
 
 parts:
   - caption: BEP Thirza
     chapters:
-    - file: tussenrapporten/CHAPTER1.ipynb
-    - file: tussenrapporten/CHAPTER2.ipynb
-    - file: tussenrapporten/CHAPTER3.ipynb
-    - file: tussenrapporten/CHAPTER4.ipynb
-    - file: tussenrapporten/REFERENCES.ipynb
+    - file: tussenrapport/CHAPTER1.ipynb
+    - file: tussenrapport/CHAPTER2.ipynb
+    - file: tussenrapport/CHAPTER3.ipynb
+    - file: tussenrapport/CHAPTER4.ipynb
+    - file: tussenrapport/REFERENCES.ipynb
