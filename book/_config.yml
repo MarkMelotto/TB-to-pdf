@@ -51,3 +51,8 @@ sphinx:
 bibtex_bibfiles: 
   - references.bib
 
+latex:
+  latex_documents:
+     targetname: BEP_verslag.tex
+     latex_engine: pdflatex
+

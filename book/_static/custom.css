@@ -1,0 +1,8 @@
+@media print {
+    .bd-toc {
+        display: none; /* Hides right sidebar */
+    }
+    nav#navbar-main {
+        display: none; /* Hides the top navigation bar */
+    }
+}
