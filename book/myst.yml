@@ -1,0 +1,27 @@
+version: 1
+project:
+  title: Template
+  authors:
+    - name: TeachBooks
+  copyright: Delft University of Technology, CC BY 4.0
+  bibliography:
+    - references.bib
+  
+  exports:
+    - format: pdf
+      template: plain_latex_book # myst templates list --tex
+      output: exports/book.pdf  
+
+  toc:
+    - file: tussenrapport\INTRODUCTION.ipynb
+    - title: BEP Thirza
+      children:
+        - file: tussenrapport\CHAPTER1.ipynb
+        - file: tussenrapport\CHAPTER2.ipynb
+        - file: tussenrapport\CHAPTER3.ipynb
+        - file: tussenrapport\CHAPTER4.ipynb
+        - file: tussenrapport\REFERENCES.ipynb
+site:
+  options:
+    favicon: figures/favicon.ico
+  template: book-theme
